@@ -1,0 +1,9 @@
+version: 1
+services:
+  - type: web
+    name: contacts-web-app
+    env: node
+    buildCommand: npm run build
+    startCommand: serve -s build
+    staticPublishPath: build
+    autoDeploy: true
