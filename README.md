@@ -1,4 +1,6 @@
-# Simple Contacts Web App
+# Contacts Web App
+
+Welcome to the **Contacts Web App**, a simple application designed to manage contacts and send One-Time Passwords (OTPs) via SMS using Twilio. This project serves as a practical example of building a full-stack application with a focus on responsiveness and functionality.
 
 ## Overview
 
@@ -23,6 +25,42 @@ This project is a web application that allows users to send One-Time Passwords (
 - Node.js
 - npm (Node Package Manager)
 - A Twilio account (for SMS functionality)
+
+
+## GitHub Repository
+
+You can find the complete project on GitHub:
+
+[https://github.com/Rishu18D/CONTACTS-WEB-APP-.git](https://github.com/Rishu18D/CONTACTS-WEB-APP-.git)
+
+## Project Structure
+
+The project is organized into two main directories: `backend` and `frontend`.
+
+
+# Contacts Web App
+
+Welcome to the **Contacts Web App**, a simple application designed to manage contacts and send One-Time Passwords (OTPs) via SMS using Twilio. This project serves as a practical example of building a full-stack application with a focus on responsiveness and functionality.
+
+## Project Overview
+
+This project allows users to:
+- View a list of contacts.
+- View details for each contact, including name and phone number.
+- Send an OTP SMS to a selected contact.
+- View the history of messages sent.
+
+### Key Features
+- Responsive design for a seamless user experience.
+- Utilizes Twilio for sending SMS messages.
+- Built using React for the frontend and Node.js with Express for the backend.
+- Stores contact information in a static JSON file.
+
+## GitHub Repository
+
+You can find the complete project on GitHub:
+
+[https://github.com/Rishu18D/CONTACTS-WEB-APP-.git](https://github.com/Rishu18D/CONTACTS-WEB-APP-.git)
 
 
 ### Project Structure 
@@ -70,6 +108,7 @@ root/
 
 ```
 
+
 ## Getting Started
 
 ### Clone the Repository
@@ -99,3 +138,4 @@ TWILIO_PHONE_NUMBER=your_twilio_phone_number
 In Project root directory
 npm install
 npm start
+
