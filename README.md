@@ -27,11 +27,11 @@ This project is a web application that allows users to send One-Time Passwords (
 - A Twilio account (for SMS functionality)
 
 
-## GitHub Repository
+## Live demo
 
-You can find the complete project on GitHub:
+You can find the live demo of the project here:
 
-[https://github.com/Rishu18D/CONTACTS-WEB-APP-.git](https://github.com/Rishu18D/CONTACTS-WEB-APP-.git)
+[https://contacts-web-app-frontend.onrender.com/](https://contacts-web-app-frontend.onrender.com/)
 
 ## Project Structure
 
