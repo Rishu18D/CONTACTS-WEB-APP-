@@ -11,8 +11,6 @@ function App() {
     <Router>
       <nav>
         <Link to="/">Main Menu</Link>
-        <Link to="/contacts">Contacts</Link>
-        <Link to="/history">Message History</Link>
       </nav>
       <Routes>
         <Route path="/" element={<MenuPage />} />
