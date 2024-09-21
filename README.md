@@ -24,6 +24,52 @@ This project is a web application that allows users to send One-Time Passwords (
 - npm (Node Package Manager)
 - A Twilio account (for SMS functionality)
 
+
+### Project Structure 
+
+```
+root/
+│
+├── backend/
+│   ├── controllers/
+│   │   └── contactController.js
+│   ├── models/
+│   │   └── contactModel.js
+│   ├── routes/
+│   │   └── contactRoutes.js
+│   ├── services/
+│   │   └── smsService.js
+│   ├── .env
+│   ├── server.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ContactList.js
+│   │   │   ├── ContactInfo.js
+│   │   │   ├── MessageScreen.js
+│   │   │   ├── MessageHistory.js
+│   │   ├── pages/
+│   │   │   ├── ContactsPage.js
+│   │   │   ├── MessageHistoryPage.js
+│   │   ├── utils/
+│   │   │   └── api.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── .env
+│   ├── package.json
+│   └── package-lock.json
+│
+├── README.md
+├── .gitignore
+└── yarn.lock / package-lock.json
+
+```
+
 ## Getting Started
 
 ### Clone the Repository
