@@ -1,3 +1,14 @@
+## i have not added any kind of styling is the project..
+
+## GitHub link: 
+```
+https://github.com/Rishu18D/CONTACTS-WEB-APP-.git
+
+```
+
+### Project Structure 
+
+```
 root/
 │
 ├── backend/
@@ -37,3 +48,5 @@ root/
 ├── README.md
 ├── .gitignore
 └── yarn.lock / package-lock.json
+
+```
