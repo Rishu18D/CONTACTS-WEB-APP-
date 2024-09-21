@@ -30,5 +30,26 @@ This project is a web application that allows users to send One-Time Passwords (
 
 ```bash
 git clone https://github.com/Rishu18D/CONTACTS-WEB-APP-.git
-cd CONTACTS-WEB-APP-
+cd CONTACTS-WEB-APP
 ```
+### Install Dependencies
+```
+cd backend
+npm install
+```
+### Frontend
+```
+cd ../frontend
+npm install
+```
+### Environment Variables
+```
+TWILIO_ACCOUNT_SID=your_account_sid
+TWILIO_AUTH_TOKEN=your_auth_token
+TWILIO_PHONE_NUMBER=your_twilio_phone_number
+```
+### Start the Application
+```
+In Project root directory
+npm install
+npm start
